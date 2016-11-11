@@ -1,0 +1,29 @@
+﻿{
+  "answerables": [
+    {
+      "id": 1,
+      "fullName": "meredith debug config",
+      "photoPath": "Images/Edith.png",
+      "especialty": "fullstack"
+    },
+    {
+      "id": 2,
+      "fullName": "juan packa index",
+      "photoPath": "Images/Juan.png",
+      "especialty": "backend"
+    },
+    {
+      "id": 3,
+      "fullName": "rodrigo solution asdx",
+      "photoPath": "Images/Rodrigo.png",
+      "especialty": "frondend"
+    },
+    {
+      "id": 4,
+      "fullName": "Lia solution asdx",
+      "photoPath": "Images/Lia.png",
+      "especialty": "frondend"
+    }
+  ]
+
+}

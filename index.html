@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="Css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        blockquote{
+      margin: 20px 0;
+      padding-left: 1.5rem;
+      border-left: 5px solid #afb42b; 
+    }
+    </style>
+
+</head>
+<body>
+    <nav class="nav-extended lime">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Task Management</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a class="active" href="#home">Home</a></li>
+                <li class="tab"><a href="#answerables">Answerables</a></li>
+                <li class="tab"><a href="#tasks">Tasks</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home" class="col s12 content">
+        <h2 class="header center  lime-text text-darken-2">Welcome To Platform</h2>
+        <div class="col s12 m7 container">
+            <div class="card small horizontal">
+              <div class="card-image">
+                <img src="Images/tasksIcon.jpg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <blockquote >This is  a platform that will let you manage details like date, answerables, end date... of you taks</blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div id="answerables" class="col s12 container">
+      <h2 class="header  lime-text text-darken-2">Task List</h2>
+      <ul id="answerableList" class="collection">
+      </ul>
+    </div>
+
+    <div id="tasks" class="col s12 container">
+      <h2 class="header  lime-text text-darken-2">Task List</h2>
+      <ul id = "taskList" class="collection">
+      </ul>
+    </div>
+
+    <div id="h"> </div>
+    <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/materialize.min.js"></script>
+    <script src="Main.js"></script>
+
+    <footer class="page-footer lime">
+        <div class="footer-copyright">
+            <div class="container">
+                © Copyright Task Management
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

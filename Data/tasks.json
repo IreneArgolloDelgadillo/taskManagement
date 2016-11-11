@@ -1,0 +1,28 @@
+﻿{
+  "tasks": [
+    {
+      "title": "Desing the backgrond",
+      "deadLine": "01/12/2016",
+      "description": "issips",
+      "answerablesId": 1
+    },
+    {
+      "title": "Desing the frondend",
+      "deadLine": "15/12/2016",
+      "description": "issiplks",
+      "answerablesId": 2
+    },
+    {
+      "title": "Implement the frondend",
+      "deadLine": "25/12/2016",
+      "description": "using polymer",
+      "answerablesId": 3
+    },
+    {
+      "title": "Implement database",
+      "deadLine": "25/12/2016",
+      "description": "using firebase",
+      "answerablesId": 1
+    }
+  ]
+}
